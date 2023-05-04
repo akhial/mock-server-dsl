@@ -114,7 +114,7 @@ class MockResponses {
  *
  * The first matcher that matches the request according to any strategy will be used.
  *
- * @param init Mock responses configured via DSL
+ * @param init Mock responses configured via DSL.
  * @return A [Dispatcher] instance with the mock responses configured.
  */
 @Suppress("unused")
