@@ -1,7 +1,9 @@
-## Mock Server DSL
+# Mock Server DSL
+![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)
+
 A DSL to define [Dispatchers](https://square.github.io/okhttp/4.x/okhttp/okhttp3/-dispatcher/) for OkHttp MockWebServer.
 
-### Example
+## Example
 ```kotlin
 val server = MockWebServer()
 
@@ -14,3 +16,6 @@ val dispatcher = mockResponses {
 
 server.dispatcher = dispatcher
 ```
+
+## License
+mock-server-dsl is provided under the MIT license.
